@@ -1,0 +1,13 @@
+{
+    "verbose": true,
+    "mqtt": {
+        "reconnectPeriod": 1000,
+        "url": "mqtt://mqtt:iWNjE1gw0iW5VYFwIuOH@192.168.1.35"
+    },
+    "devices": [
+        {
+            "topic": "lounge/appletv",
+            "credentials": "C8309D5A-4AAD-4338-8B45-2F7F2E813680:31303664333336662d343462302d343330332d613566612d316363396463306234363934:30666631313935362d343366392d343761312d386661352d663162303637643435303139:a14bd6fa8d38662f12d6238af0115776a23119133d158087d436509f690abaae:5fd4b60b65f319ac29ef080e56a2c954ab48d784c305364238dc49d73f056003"
+        }
+    ]
+}

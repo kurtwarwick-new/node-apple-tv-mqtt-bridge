@@ -1,0 +1,19 @@
+{
+    "name": "node-applt-tv-mqtt-bridge",
+    "version": "1.0.1",
+    "description": "An MQTT bridge for node-apple-tv",
+    "main": "./src/index.js",
+    "bin": {
+        "nodeAppleTvMqttBridge": "./bin/cli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "minimist": "^1.2.5",
+        "mqtt": "^4.1.0",
+        "node-appletv-x": "^1.0.17"
+    }
+}
