@@ -1,19 +1,34 @@
 {
-    "name": "node-apple-tv-mqtt-bridge",
-    "version": "1.0.1",
-    "description": "An MQTT bridge for node-apple-tv",
-    "main": "./src/index.js",
-    "bin": {
-        "nodeAppleTvMqttBridge": "./bin/cli.js"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "minimist": "^1.2.5",
-        "mqtt": "^4.1.0",
-        "node-appletv-x": "^1.0.17"
-    }
+  "name": "homebridge-appletv-now-playing",
+  "version": "0.1.0",
+  "description": "An MQTT bridge to expose Apple TV now playing state.",
+  "license": "MIT",
+  "keywords": [
+    "appletv",
+    "mqtt-appletv"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurtwarwick-new/node-apple-tv-mqtt-bridge.git"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "mqtt": "^4.1.0",
+    "node-appletv-x": "^1.0.17"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kurtwarwick-new/node-apple-tv-mqtt-bridge/issues"
+  },
+  "homepage": "https://github.com/kurtwarwick-new/node-apple-tv-mqtt-bridge#readme",
+  "main": "index.js",
+  "bin": {
+    "appleTvMqttBridge": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kurt Warwick"
 }
