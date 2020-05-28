@@ -1,5 +1,5 @@
 {
-    "name": "node-applt-tv-mqtt-bridge",
+    "name": "node-apple-tv-mqtt-bridge",
     "version": "1.0.1",
     "description": "An MQTT bridge for node-apple-tv",
     "main": "./src/index.js",
