@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-appletv-now-playing",
-  "version": "0.1.0",
+  "name": "node-apple-tv-mqtt-bridge",
+  "version": "0.1.1",
   "description": "An MQTT bridge to expose Apple TV now playing state.",
   "license": "MIT",
   "keywords": [
